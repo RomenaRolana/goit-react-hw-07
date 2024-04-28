@@ -1,0 +1,40 @@
+/* Container for each contact item */
+.itemContact {
+  width: 240px;
+  border: 2px solid #0056b3; /* Dark blue border */
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e6f7ff; /* Light blue background */
+  margin-bottom: 10px;
+}
+
+/* List style for contact items */
+li {
+  list-style-type: none; /* Remove list bullets */
+  padding: 5px;
+  border-bottom: 1px solid #ccc; /* Light gray line between items */
+}
+
+/* Last item in the list should not have a bottom border */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Styling for contact names */
+.itemContactName {
+  color: #003366; /* Darker blue for text */
+  font-size: 18px;
+  font-weight: 600; /* Bolder font weight */
+}
+
+/* Icon adjustments */
+.itemIcon {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #0056b3; /* Matching the container border */
+  border-radius: 50%; /* Circular border for icons */
+  padding: 5px;
+  margin-right: 5px;
+}
+

@@ -1,0 +1,56 @@
+/* Styling for the form container */
+.form {
+  width: 360px;
+  border-radius: 8px;
+  background-color: #f3f3f3; /* Lighter shade for a cleaner look */
+  padding: 24px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth */
+}
+
+/* Styling for labels or span elements within the form */
+.span {
+  font-size: 20px; /* Slightly smaller for subtlety */
+  font-weight: 600; /* Bold but not too heavy */
+  color: #333; /* Dark gray for better readability */
+}
+
+/* Input field styling */
+.input {
+  height: 40px;
+  background-color: white; /* Clean white background */
+  color: #555; /* Soft black for text */
+  font-size: 16px; /* Optimal size for readability */
+  border: 1px solid #ccc; /* Subtle border */
+  padding: 0 10px; /* Spacing inside input */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Error message styling */
+.error {
+  font-size: 18px; /* Large enough to be noticeable, not overpowering */
+  font-style: italic; /* Italicized to differentiate from other text */
+  color: #d32f2f; /* Red tone for visibility */
+}
+
+/* Button styling */
+.btn {
+  background-color: #4CAF50; /* Vivid green for actions */
+  color: white; /* White text for contrast */
+  width: 180px; /* Wider button for easier interaction */
+  height: 40px; /* Taller for better clickability */
+  margin: 0 auto;
+  border: none; /* No border for a modern look */
+  border-radius: 5px; /* Slightly rounded edges */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for button */
+.btn:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+

@@ -1,0 +1,12 @@
+/* Container for listing contact items */
+.listContact {
+  width: 100%; /* Full width of the container */
+  display: flex; /* Flexbox layout */
+  flex-wrap: wrap; /* Allows items to wrap to next line */
+  gap: 24px; /* Spacing between items */
+  padding: 20px; /* Padding around the container for better spacing from container edges */
+  justify-content: center; /* Centering items horizontally */
+  align-items: flex-start; /* Aligning items at the top */
+  background-color: #f9f9f9; /* Light background color for the container */
+}
+
